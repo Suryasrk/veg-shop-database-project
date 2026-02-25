@@ -5,7 +5,7 @@ from datetime import date
 con = vegs.connect(
     host="localhost",
     user="root",
-    password="Sathvik@121",
+    password="Surya@123",
     database="veg"
 )
 cur = con.cursor()
@@ -486,3 +486,4 @@ while True:
         break
 
 con.close()
+
